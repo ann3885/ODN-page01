@@ -1027,6 +1027,11 @@ header .inner .wrap nav ul li a:hover span {
   background: url(../img/login_icon2.png) center no-repeat;
   background-size: 18px auto;
 }
+.login .section1 .inner .wrap .sign_in .col50.right .box.kakao span:before {
+  width: 24px;
+  background: url(../img/login_icon3.png) center no-repeat;
+  background-size: 18px auto;
+}
 .login .section1 .inner .wrap .sign_in .col50.right .find_pw {
   margin-top: 9px;
   font-size: 14px;
