@@ -212,13 +212,7 @@ header .inner .wrap nav ul li a:hover span {
     transform: translateY(0);
   }
 }
-.main .section1 {
-  position: relative;
-  text-align: center;
-  line-height: 0;
-  background: url(../img/sec1_bg.jpg) no-repeat;
-  background-size: cover;
-}
+
 .main .section1:after {
   content: "";
   position: absolute;
