@@ -11,7 +11,7 @@
   height: 100%;
   overflow: hidden;
 }
-section {
+.main section {
   width: 100%;
   height: 100vh;
 }
@@ -212,13 +212,7 @@ header .inner .wrap nav ul li a:hover span {
     transform: translateY(0);
   }
 }
-.main .section1 {
-  position: relative;
-  text-align: center;
-  line-height: 0;
-  background: url(../img/sec1_bg.jpg) no-repeat;
-  background-size: cover;
-}
+
 .main .section1:after {
   content: "";
   position: absolute;
@@ -251,6 +245,9 @@ header .inner .wrap nav ul li a:hover span {
   position: relative;
   max-width: 900px;
   transform: translateY(100px);
+}
+.main .section1 .img_box .wrap .ani .img_wrap {
+  text-align: center;
 }
 .main .section1 .img_box .wrap .ani .box {
   position: absolute;
@@ -756,41 +753,47 @@ header .inner .wrap nav ul li a:hover span {
 .slick-dots li.slick-active button {
   background: #b7b7b7;
 }
-.main .section2 .info {
+footer .info {
+  position: relative;
+  left: auto;
+  bottom: auto;
+}
+.info {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   transform: translateY(25%);
 }
-.main .section2 .info .inner {
+.info .inner {
   padding-bottom: 30px;
+  line-height: 0;
 }
-.main .section2 .info .inner img {
+.info .inner img {
   width: 200px;
 }
-.main .section2 .info .inner .txt_box {
+.info .inner .txt_box {
   margin-top: 15px;
 }
-.main .section2 .info .inner .txt_box h4 {
+.info .inner .txt_box h4 {
   font-size: 22px;
   color: #656162;
   line-height: 1.35;
 }
-.main .section2 .info .inner .txt_box p {
+.info .inner .txt_box p {
   margin-top: 5px;
   font-size: 16px;
   color: #808080;
   line-height: 1.3;
 }
-.main .section2 .info .inner .txt_box .contact {
+.info .inner .txt_box .contact {
   margin-top: 12px;
 }
-.main .section2 .info .inner .txt_box .contact ul {
+.info .inner .txt_box .contact ul {
   margin: -5px -15px;
   overflow: hidden;
 }
-.main .section2 .info .inner .txt_box .contact ul li {
+.info .inner .txt_box .contact ul li {
   padding: 5px 15px;
   float: left;
   font-size: 18px;
@@ -798,12 +801,12 @@ header .inner .wrap nav ul li a:hover span {
   line-height: 1.3;
   font-weight: bold;
 }
-.main .section2 .info .inner .txt_box .contact ul li span {
+.info .inner .txt_box .contact ul li span {
   margin-right: 8px;
   font-size: 17px;
   color: #163159;
 }
-.main .section2 .info .inner .copyright {
+.info .inner .copyright {
   margin-top: 25px;
   text-align: center;
   font-size: 22px;
@@ -827,64 +830,64 @@ header .inner .wrap nav ul li a:hover span {
     border-radius: 8px;
     border: 3px solid #b7b7b7;
   }
-  .main .section2 .info .inner {
+  .info .inner {
     padding-bottom: 20px;
   }
-  .main .section2 .info .inner img {
+  .info .inner img {
     width: 140px;
   }
-  .main .section2 .info .inner .txt_box {
+  .info .inner .txt_box {
     margin-top: 10px;
   }
-  .main .section2 .info .inner .txt_box h4 {
+  .info .inner .txt_box h4 {
     font-size: 18px;
   }
-  .main .section2 .info .inner .txt_box p {
+  .info .inner .txt_box p {
     font-size: 15px;
   }
-  .main .section2 .info .inner .txt_box .contact ul li {
+  .info .inner .txt_box .contact ul li {
     font-size: 16px;
   }
-  .main .section2 .info .inner .txt_box .contact ul li span {
+  .info .inner .txt_box .contact ul li span {
     margin-right: 5px;
     font-size: 15px;
   }
-  .main .section2 .info .inner .copyright {
+  .info .inner .copyright {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 639px) {
-  .main .section2 .info .inner {
+  .info .inner {
     padding-bottom: 15px;
   }
-  .main .section2 .info .inner img {
+  .info .inner img {
     width: 110px;
   }
-  .main .section2 .info .inner .txt_box {
+  .info .inner .txt_box {
     margin-top: 5px;
   }
-  .main .section2 .info .inner .txt_box h4 {
+  .info .inner .txt_box h4 {
     font-size: 15px;
   }
-  .main .section2 .info .inner .txt_box p {
+  .info .inner .txt_box p {
     font-size: 12px;
   }
-  .main .section2 .info .inner .txt_box .contact {
+  .info .inner .txt_box .contact {
     margin-top: 8px;
   }
-  .main .section2 .info .inner .txt_box .contact ul {
+  .info .inner .txt_box .contact ul {
     margin: 0 -5px;
   }
-  .main .section2 .info .inner .txt_box .contact ul li {
+  .info .inner .txt_box .contact ul li {
     padding: 0 5px;
     font-size: 13px;
   }
-  .main .section2 .info .inner .txt_box .contact ul li span {
+  .info .inner .txt_box .contact ul li span {
     margin-right: 5px;
     font-size: 15px;
   }
-  .main .section2 .info .inner .copyright {
+  .info .inner .copyright {
     margin-top: 15px;
     font-size: 15px;
   }
